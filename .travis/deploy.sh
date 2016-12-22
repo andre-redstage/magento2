@@ -17,8 +17,8 @@ then
 	if [ $TRAVIS_BRANCH == "master" ]
 	then
 	    
-	    # git remote add production $PRODUCTION_REMOTE
-	    # git push -f production $TRAVIS_BRANCH    
+	    git remote add production $PRODUCTION_REMOTE
+	    git push -f production $TRAVIS_BRANCH    
 
 	fi
 
